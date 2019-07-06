@@ -16,6 +16,7 @@ def add_item(item_name, price, quantity = 1 )
   self.total += price*quantity
   @items += [item_name]*quantity
   # @items.concat([item_name]*quantity)
+  @last_transaction = @total
   
 end
 
