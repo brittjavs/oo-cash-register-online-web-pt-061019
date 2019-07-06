@@ -17,7 +17,7 @@ def add_item(item_name, price, quantity = 1 )
   @items += [item_name]*quantity
   # @items.concat([item_name]*quantity)
   @last_transaction = @total
-  
+  binding.pry
 end
 
 def apply_discount
